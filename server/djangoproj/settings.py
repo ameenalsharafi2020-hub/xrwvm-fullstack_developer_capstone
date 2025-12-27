@@ -13,9 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,'frontend/static')
-]
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -30,8 +28,8 @@ SECRET_KEY =\
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-CSRF_TRUSTED_ORIGINS = []
+ALLOWED_HOSTS=['localhost','https://github.com/ameenalsharafi2020-hub/xrwvm-fullstack_developer_capstone.git']
+CSRF_TRUSTED_ORIGINS=['https://github.com/ameenalsharafi2020-hub/xrwvm-fullstack_developer_capstone.git']
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
@@ -136,5 +134,6 @@ MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STATICFILES_DIRS = []
-
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,'frontend/static')
+]
