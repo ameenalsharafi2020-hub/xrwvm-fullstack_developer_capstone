@@ -28,8 +28,8 @@ SECRET_KEY =\
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS=['localhost','https://github.com/ameenalsharafi2020-hub/xrwvm-fullstack_developer_capstone/tree/main/server/djangoapp']
-CSRF_TRUSTED_ORIGINS=['https://github.com/ameenalsharafi2020-hub/xrwvm-fullstack_developer_capstone/tree/main/server/djangoapp']
+ALLOWED_HOSTS=['localhost','https://ameenalshara-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
+CSRF_TRUSTED_ORIGINS=['https://ameenalshara-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
