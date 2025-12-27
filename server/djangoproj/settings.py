@@ -28,8 +28,8 @@ SECRET_KEY =\
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS=['localhost','https://github.com/ameenalsharafi2020-hub/xrwvm-fullstack_developer_capstone.git']
-CSRF_TRUSTED_ORIGINS=['https://github.com/ameenalsharafi2020-hub/xrwvm-fullstack_developer_capstone.git']
+ALLOWED_HOSTS=['localhost','https://github.com/ameenalsharafi2020-hub/xrwvm-fullstack_developer_capstone/tree/main/server/djangoapp']
+CSRF_TRUSTED_ORIGINS=['https://github.com/ameenalsharafi2020-hub/xrwvm-fullstack_developer_capstone/tree/main/server/djangoapp']
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
